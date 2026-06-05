@@ -41,11 +41,11 @@ I chose reviews of off campus housing for Towson University. This knowledge is h
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
 **Chunk size:**
-
+200 characters
 **Overlap:**
-
+20 characters 
 **Reasoning:**
-
+The majority of the sources are from reddit comments, which don't need a large chunk size. The longer reviews in the other sources would most likely require larger chunk sizes though.
 ---
 
 ## Retrieval Approach
@@ -57,11 +57,11 @@ I chose reviews of off campus housing for Towson University. This knowledge is h
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
-
+all-MiniLM-L6-v2 via sentence-transformers
 **Top-k:**
-
+8
 **Production tradeoff reflection:**
-
+I would weigh context length and accuracy on domain-specific text, since I think context length will be a challenge in addition to most of my sources being from Reddit.
 ---
 
 ## Evaluation Plan
@@ -73,7 +73,7 @@ I chose reviews of off campus housing for Towson University. This knowledge is h
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 |What do students recommend as the best off campus housing option? |Towson Place due to low price, closeness to campus, and lack of major problems. |
+| 1 |What do students say is the closest housing options? |Towson Place, Yor, and Altus are the closest housing options. |
 | 2 |What are the benefits and downsides of Towson Place? |Benefits include low price and low distance to campus, downsides include loud noises and weed smell. |
 | 3 |What are the benefits and downsides of University Village? |Benefits include low price and low distance to campus. Downsides include cheap furnishings and old apartments. |
 | 4 |What do students say are the benefits of Aspen? |Benefits include close to campus and individual leases. |
@@ -87,9 +87,9 @@ I chose reviews of off campus housing for Towson University. This knowledge is h
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1.Chunks splitting key information across boundaries, Reddit comments have very inconsistent lenghths meaning context could be lost.
 
-2.
+2.Noisy documents, the chunk size issue means that irrelevant information could be added causing more noise to be created.
 
 ---
 
@@ -100,6 +100,8 @@ I chose reviews of off campus housing for Towson University. This knowledge is h
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+Document Ingestion -> Chunking ->       Embedding ->  Vector Store <-> Retrieval -> Generation
+Copying text         Python Script  all-MiniLM-L6-v2    ChromaDB           Grow            Groq
 
 ---
 
@@ -116,7 +118,8 @@ I chose reviews of off campus housing for Towson University. This knowledge is h
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
-
+I will use Claude. I will give it my document section, my chunking strategy section, and my pipeline diagram. I will require it to create a script that loads documents and produces the chunks specified in the aforementioned documents. I expect it to produce a script that can split the documents into chunks. To verify, I will print various chunks and inspect them for their quality.
 **Milestone 4 — Embedding and retrieval:**
-
+I will use Claude. I will give it my retrieval approach and architecture diagram. I will require it to utilize all-MiniLM-L6-v2 and ChromaDB to load chunks into a vector store. I will also require it to create a function that can retrieve the most relevant chunks. I expect it to produce multiple python functions that load the chunks into a vector store and retrieve the most relavent chunks. To verify, I will test said function with various inputs, observing if the chunks are indeed relavent.
 **Milestone 5 — Generation and interface:**
+I will use Claude. I will give the architecture as input. I will require the model to utilize the retrieved content from the previous step. I will require it to attribute the sources for which the chunk comes from. I will require it to answer in the form of a response followed by a source list. I expect it to produce Python code that prompts the LLM to produce answers in the format requested. To verify this, I will read through the prompt, then test the prompt against the test cases already defined.
