@@ -10,7 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
-
+I chose reviews of off campus housing for Towson University. This knowledge is hard to find through official channels due to no review system on the university's option list for off campus housing, and while a tool does exist for that, the reviews on it are scarce and inconsistent in distribution.
 ---
 
 ## Documents
@@ -18,18 +18,18 @@
 <!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
      Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
 
-| # | Source | Description | URL or location |
-|---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| # | Source | Type | URL or file path |
+|---|--------|------|-----------------|
+| 1 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1s2sakz/towson_off_campus_housing_apartments/ |
+| 2 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1jf521t/housing_recommendations/ |
+| 3 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1tkockc/off_campus_housing/ |
+| 4 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1e3iybd/recommended_housing_near_campus/ |
+| 5 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1czlqy8/any_off_campus_housing_thats_in_walking_distance/ |
+| 6 |ApartmentRatings |Off Campus Community Reviews |https://www.apartmentratings.com/md/towson/university-village_410583050021285/ |
+| 7 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1qjhkt8/off_campus_housing/ |
+| 8 |offcampushousing.towson.edu |Search Resource for Off Campus Housing |https://offcampushousing.towson.edu/housing/property/donnybrook-apartments/58xc37p |
+| 9 |offcampushousing.towson.edu |Search Resource for Off Campus Housing |https://offcampushousing.towson.edu/housing/property/towson-promenade/33ewdrf |
+| 10 |offcampushousing.towson.edu |Search Resource for Off Campus Housing |https://offcampushousing.towson.edu/housing/property/towsontown-place-apartments/ktw7f48 |
 
 ---
 
@@ -73,11 +73,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 |What do students recommend as the best off campus housing option? |Towson Place due to low price, closeness to campus, and lack of major problems. |
+| 2 |What are the benefits and downsides of Towson Place? |Benefits include low price and low distance to campus, downsides include loud noises and weed smell. |
+| 3 |What are the benefits and downsides of University Village? |Benefits include low price and low distance to campus. Downsides include cheap furnishings and old apartments. |
+| 4 |What do students say are the benefits of Aspen? |Benefits include close to campus and individual leases. |
+| 5 |How long of a walk do students say Donnybrook apartments is from campus? |Students say the walk is around 15 minutes. |
 
 ---
 

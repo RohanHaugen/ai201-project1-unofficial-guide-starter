@@ -13,7 +13,7 @@
      Why is this knowledge valuable, and why is it hard to find through official channels?
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
-
+Off campus housing experiences at Towson University. This knowledge is valuable as the official sources for housing don't contain reviews from the people who have lived there. No information about the experience of going to classes is provided and sources about student experiences are not centralized and inconsistent across options.
 ---
 
 ## Document Sources
@@ -24,16 +24,16 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1s2sakz/towson_off_campus_housing_apartments/ |
+| 2 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1jf521t/housing_recommendations/ |
+| 3 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1tkockc/off_campus_housing/ |
+| 4 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1e3iybd/recommended_housing_near_campus/ |
+| 5 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1czlqy8/any_off_campus_housing_thats_in_walking_distance/ |
+| 6 |ApartmentRatings |Off Campus Community Reviews |https://www.apartmentratings.com/md/towson/university-village_410583050021285/ |
+| 7 |Reddit |School Subreddit |https://www.reddit.com/r/Towson/comments/1qjhkt8/off_campus_housing/ |
+| 8 |offcampushousing.towson.edu |Search Resource for Off Campus Housing |https://offcampushousing.towson.edu/housing/property/donnybrook-apartments/58xc37p |
+| 9 |offcampushousing.towson.edu |Search Resource for Off Campus Housing |https://offcampushousing.towson.edu/housing/property/towson-promenade/33ewdrf |
+| 10 |offcampushousing.towson.edu |Search Resource for Off Campus Housing |https://offcampushousing.towson.edu/housing/property/towsontown-place-apartments/ktw7f48 |
 
 ---
 
