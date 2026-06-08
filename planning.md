@@ -73,7 +73,7 @@ I would weigh context length and accuracy on domain-specific text, since I think
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 |What is the closest housing to the campus? |Towson Place, Yor, and Altus are the closest housing options. |
+| 1 |What is the closest housing to the campus? |Towson Place, York, and Altus are the closest housing options. |
 | 2 |What are the benefits and downsides of TowsonTown Place? |Benefits include low price and low distance to campus, downsides include loud noises and weed smell. |
 | 3 |What are the benefits and downsides of University Village? |Benefits include low price and low distance to campus. Downsides include cheap furnishings and old apartments. |
 | 4 |What do students say are the benefits of Aspen? |Benefits include close to campus and individual leases. |
