@@ -101,7 +101,7 @@ I would weigh context length and accuracy on domain-specific text, since I think
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 Document Ingestion -> Chunking ->       Embedding ->  Vector Store <-> Retrieval -> Generation
-Copying text         Python Script  all-MiniLM-L6-v2    ChromaDB           Grow            Groq
+Copying text         Python Script  all-MiniLM-L6-v2    ChromaDB           ChromaDB            Groq
 
 ---
 
